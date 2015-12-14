@@ -5,7 +5,7 @@
  * Date: 14.12.2015
  * Time: 16:59
  */
-namespace kak\widgets\BSwitch;
+namespace kak\widgets\InputSwitch;
 use yii\web\AssetBundle;
 
 class BootstrapSwitchAsset extends AssetBundle
