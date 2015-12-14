@@ -1,0 +1,32 @@
+{
+    "name": "kak/switch",
+    "description": "bootstrap switch for Yii2",
+    "type": "library",
+    "keywords": ["yii2","bootstrap-switch"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/sanchezzzhak/kak-switch/issues?state=open",
+        "source": "https://github.com/sanchezzzhak/kak-switch"
+    },
+    "authors": [
+        {
+            "name": "Tutik Alexsandr",
+            "email": "sanchezzzhak@ya.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/bootstrap-switch": ">=3.3.2"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "kak\\widgets\\switch\\": ""
+        }
+    }
+}
