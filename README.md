@@ -1,10 +1,32 @@
 # kak-input-switch
 bootstrap-switch widget for Yii2
 
+Documentation
+-------------
  * @docs options http://www.bootstrap-switch.org/options.html
  * @docs methods http://www.bootstrap-switch.org/methods.html
  * @docs events http://www.bootstrap-switch.org/events.html
 
+Installation
+------------
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```
+php composer.phar require --prefer-dist kak/input-switch "dev-master"
+```
+
+or add
+
+```
+"kak/input-switch": "dev-master"
+```
+
+to the require section of your `composer.json` file.
+
+Usage
+-----
 ActiveForm
 ```php
 echo $form->field($model, 'list')->widget('\kak\widgets\InputSwitch\InputSwitch', [
