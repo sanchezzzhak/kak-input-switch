@@ -23,17 +23,16 @@ class InputSwitch extends \yii\widgets\InputWidget
 
     public function init(){
         parent::init();
-
         Html::addCssClass($this->options,'InputSwitch');
     }
 
     public function run()
     {
-        echo $this->hasModel()
+        $this->registerAssets();
+
+        return $this->hasModel()
             ? Html::activeCheckbox($this->model, $this->attribute, $this->options)
             : Html::checkbox($this->name, $this->value, $this->options);
-
-        $this->registerAssets();
     }
 
     /**
