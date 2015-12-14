@@ -1,5 +1,5 @@
 {
-    "name": "kak/switch",
+    "name": "kak/input-switch",
     "description": "bootstrap switch for Yii2",
     "type": "library",
     "keywords": ["yii2","bootstrap-switch"],
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kak\\widgets\\BSwitch\\": ""
+            "kak\\widgets\\InputSwitch\\": ""
         }
     }
 }
